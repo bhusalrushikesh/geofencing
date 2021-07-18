@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp"
+    app:cardElevation="4dp"
+
+    >
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+           <com.rengwuxian.materialedittext.MaterialEditText
+               android:id="@+id/edtAddress"
+               android:hint="Table No"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColorHint="@color/black"
+               android:text=""
+               android:textColor="@color/black"
+               android:textSize="24sp"
+               android:inputType="number"
+               app:met_baseColor="@color/black"
+               app:met_floatingLabel="highlight"
+               app:met_primaryColor="@color/black"
+               app:met_singleLineEllipsis="true"
+               />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/edtComment"
+                android:hint="Comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:inputType="textMultiLine"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/black"
+                app:met_singleLineEllipsis="true"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
